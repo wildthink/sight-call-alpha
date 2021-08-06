@@ -1,0 +1,14 @@
+# Pod related
+Pods/
+*.xcworkspace
+
+# Dependencies
+Dependencies/
+
+# Xcode user settings
+xcuserdata/
+
+# macOS
+.DS_Store
+
+/Visual_Support/Translation

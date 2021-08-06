@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9662D3612603D95900139F64 /* AutoTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662D3602603D95900139F64 /* AutoTimer.swift */; };
+		9662D3652604FF3800139F64 /* LSFoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9662D3642604FF3800139F64 /* LSFoundationExtensions.swift */; };
+		966453DA263C514300A084AC /* SightCallSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966453D9263C3E1B00A084AC /* SightCallSDK.swift */; };
+		966BBDE72600106D004AA9A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966BBDE62600106C004AA9A7 /* LaunchScreen.storyboard */; };
+		966BBDEB26001340004AA9A7 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 966BBDEA26001340004AA9A7 /* Settings.bundle */; };
+		966BBDED260058C1004AA9A7 /* LSUniversalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966BBDEC260058C1004AA9A7 /* LSUniversalExtensions.swift */; };
+		966BBDEF26005916004AA9A7 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966BBDEE26005916004AA9A7 /* UIKitExtensions.swift */; };
+		96AD420725E40A320030FB93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD420625E40A320030FB93 /* AppDelegate.swift */; };
+		96AD420925E40A320030FB93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD420825E40A320030FB93 /* SceneDelegate.swift */; };
+		96AD420B25E40A320030FB93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD420A25E40A320030FB93 /* ViewController.swift */; };
+		96AD420E25E40A320030FB93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AD420C25E40A320030FB93 /* Main.storyboard */; };
+		96AD421025E40A330030FB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96AD420F25E40A330030FB93 /* Assets.xcassets */; };
+		DB5AFF7EA0A6C7274CC1397D /* Pods_SightCallAlpha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B286EFDAEDBE2FBDBEC25B2 /* Pods_SightCallAlpha.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AAEC3F9E09F26ED714F7533 /* Pods-SightCallAlpha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightCallAlpha.debug.xcconfig"; path = "Target Support Files/Pods-SightCallAlpha/Pods-SightCallAlpha.debug.xcconfig"; sourceTree = "<group>"; };
+		6DF603815D18C5029876E546 /* Pods-SightCallAlpha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightCallAlpha.release.xcconfig"; path = "Target Support Files/Pods-SightCallAlpha/Pods-SightCallAlpha.release.xcconfig"; sourceTree = "<group>"; };
+		8B286EFDAEDBE2FBDBEC25B2 /* Pods_SightCallAlpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SightCallAlpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9662D3602603D95900139F64 /* AutoTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoTimer.swift; sourceTree = "<group>"; };
+		9662D3642604FF3800139F64 /* LSFoundationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSFoundationExtensions.swift; sourceTree = "<group>"; };
+		966453D9263C3E1B00A084AC /* SightCallSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightCallSDK.swift; sourceTree = "<group>"; };
+		966BBDE62600106C004AA9A7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		966BBDEA26001340004AA9A7 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		966BBDEC260058C1004AA9A7 /* LSUniversalExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSUniversalExtensions.swift; sourceTree = "<group>"; };
+		966BBDEE26005916004AA9A7 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		96AD420325E40A320030FB93 /* SightCallAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SightCallAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96AD420625E40A320030FB93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96AD420825E40A320030FB93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96AD420A25E40A320030FB93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96AD420D25E40A320030FB93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96AD420F25E40A330030FB93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96AD421425E40A330030FB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C6AC2A25E5DE2800F38F2C /* SightCallAlpha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SightCallAlpha.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96AD420025E40A320030FB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB5AFF7EA0A6C7274CC1397D /* Pods_SightCallAlpha.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		668C436DF072E3300077893B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AAEC3F9E09F26ED714F7533 /* Pods-SightCallAlpha.debug.xcconfig */,
+				6DF603815D18C5029876E546 /* Pods-SightCallAlpha.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		966453D8263C3E1A00A084AC /* SightCallSDK */ = {
+			isa = PBXGroup;
+			children = (
+				966453D9263C3E1B00A084AC /* SightCallSDK.swift */,
+				966BBDEE26005916004AA9A7 /* UIKitExtensions.swift */,
+				966BBDEC260058C1004AA9A7 /* LSUniversalExtensions.swift */,
+				9662D3642604FF3800139F64 /* LSFoundationExtensions.swift */,
+				9662D3602603D95900139F64 /* AutoTimer.swift */,
+			);
+			path = SightCallSDK;
+			sourceTree = "<group>";
+		};
+		96AD41FA25E40A320030FB93 = {
+			isa = PBXGroup;
+			children = (
+				96AD420525E40A320030FB93 /* Source */,
+				96AD420425E40A320030FB93 /* Products */,
+				668C436DF072E3300077893B /* Pods */,
+				D4714BA6C4B42977E872021A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96AD420425E40A320030FB93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96AD420325E40A320030FB93 /* SightCallAlpha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96AD420525E40A320030FB93 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				96C6AC2A25E5DE2800F38F2C /* SightCallAlpha.entitlements */,
+				966453D8263C3E1A00A084AC /* SightCallSDK */,
+				96AD420625E40A320030FB93 /* AppDelegate.swift */,
+				96AD420825E40A320030FB93 /* SceneDelegate.swift */,
+				96AD420A25E40A320030FB93 /* ViewController.swift */,
+				96AD420C25E40A320030FB93 /* Main.storyboard */,
+				96AD420F25E40A330030FB93 /* Assets.xcassets */,
+				966BBDE62600106C004AA9A7 /* LaunchScreen.storyboard */,
+				96AD421425E40A330030FB93 /* Info.plist */,
+				966BBDEA26001340004AA9A7 /* Settings.bundle */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D4714BA6C4B42977E872021A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B286EFDAEDBE2FBDBEC25B2 /* Pods_SightCallAlpha.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96AD420225E40A320030FB93 /* SightCallAlpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96AD421725E40A330030FB93 /* Build configuration list for PBXNativeTarget "SightCallAlpha" */;
+			buildPhases = (
+				44178B9C7E2B908683A9F567 /* [CP] Check Pods Manifest.lock */,
+				96AD41FF25E40A320030FB93 /* Sources */,
+				96AD420025E40A320030FB93 /* Frameworks */,
+				96AD420125E40A320030FB93 /* Resources */,
+				B805E676497A59A508B2AAD4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SightCallAlpha;
+			productName = USDKDemo;
+			productReference = 96AD420325E40A320030FB93 /* SightCallAlpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96AD41FB25E40A320030FB93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					96AD420225E40A320030FB93 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 96AD41FE25E40A320030FB93 /* Build configuration list for PBXProject "SightCallAlpha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96AD41FA25E40A320030FB93;
+			productRefGroup = 96AD420425E40A320030FB93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96AD420225E40A320030FB93 /* SightCallAlpha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96AD420125E40A320030FB93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966BBDE72600106D004AA9A7 /* LaunchScreen.storyboard in Resources */,
+				966BBDEB26001340004AA9A7 /* Settings.bundle in Resources */,
+				96AD421025E40A330030FB93 /* Assets.xcassets in Resources */,
+				96AD420E25E40A320030FB93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44178B9C7E2B908683A9F567 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SightCallAlpha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B805E676497A59A508B2AAD4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SightCallAlpha/Pods-SightCallAlpha-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SightCallAlpha/Pods-SightCallAlpha-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SightCallAlpha/Pods-SightCallAlpha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96AD41FF25E40A320030FB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96AD420B25E40A320030FB93 /* ViewController.swift in Sources */,
+				96AD420725E40A320030FB93 /* AppDelegate.swift in Sources */,
+				966453DA263C514300A084AC /* SightCallSDK.swift in Sources */,
+				9662D3612603D95900139F64 /* AutoTimer.swift in Sources */,
+				966BBDEF26005916004AA9A7 /* UIKitExtensions.swift in Sources */,
+				9662D3652604FF3800139F64 /* LSFoundationExtensions.swift in Sources */,
+				966BBDED260058C1004AA9A7 /* LSUniversalExtensions.swift in Sources */,
+				96AD420925E40A320030FB93 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96AD420C25E40A320030FB93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96AD420D25E40A320030FB93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96AD421525E40A330030FB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96AD421625E40A330030FB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96AD421825E40A330030FB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AAEC3F9E09F26ED714F7533 /* Pods-SightCallAlpha.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAlpha;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Source/SightCallAlpha.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDH9UWSA4G;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sightcall.pro.sightcall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96AD421925E40A330030FB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF603815D18C5029876E546 /* Pods-SightCallAlpha.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAlpha;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Source/SightCallAlpha.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDH9UWSA4G;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sightcall.pro.sightcall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96AD41FE25E40A320030FB93 /* Build configuration list for PBXProject "SightCallAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96AD421525E40A330030FB93 /* Debug */,
+				96AD421625E40A330030FB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96AD421725E40A330030FB93 /* Build configuration list for PBXNativeTarget "SightCallAlpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96AD421825E40A330030FB93 /* Debug */,
+				96AD421925E40A330030FB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96AD41FB25E40A320030FB93 /* Project object */;
+}

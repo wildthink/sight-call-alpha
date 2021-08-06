@@ -1,0 +1,14 @@
+{
+	"endpoints": [
+        {
+            "name": "Show Me",
+            "type": "code",
+            "url": "https://guest.sightcall.com/call/b7cdc700d817ddf86f143675340d0f7a15b46110"
+        },
+        {
+            "name": "Show Me ACD",
+            "type": "acd",
+            "url": "https://guest.sightcall.com/call/fd2f278610a1c11d1cae3ce6412b4a84d52779fc"
+        }
+    ];
+}

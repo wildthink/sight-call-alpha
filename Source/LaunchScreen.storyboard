@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="w3y-Qs-hGM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18092"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="qr8-Bs-5gz">
+            <objects>
+                <viewController id="w3y-Qs-hGM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p2X-AK-Mhb"/>
+                        <viewControllerLayoutGuide type="bottom" id="ewv-Cr-N2O"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="G9S-DF-dax">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <userGuides>
+                            <userLayoutGuide location="278" affinity="minY"/>
+                            <userLayoutGuide location="278" affinity="minY"/>
+                            <userLayoutGuide location="278" affinity="minY"/>
+                        </userGuides>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="999" verticalCompressionResistancePriority="999" text="Powered" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="X0G-mA-0CB">
+                                <rect key="frame" x="98.5" y="201.5" width="217" height="45.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45.5" id="8Xv-cJ-Kg4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="999" verticalCompressionResistancePriority="999" text="by" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="VBg-dQ-d90">
+                                <rect key="frame" x="98" y="255" width="218" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="Eo1-SV-WQ1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="999" verticalCompressionResistancePriority="999" text="Show what you see" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="hGI-M0-FgP">
+                                <rect key="frame" x="126" y="553" width="162" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="2uG-7B-Sgh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.60784313729999995" green="0.60784313729999995" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="tKn-31-fVz">
+                                <rect key="frame" x="20" y="381" width="374" height="134"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="999" verticalCompressionResistancePriority="999" text="SightCall" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" minimumScaleFactor="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="cmx-tX-gEm">
+                                <rect key="frame" x="98" y="308" width="218" height="46"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                <color key="textColor" white="0.12" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=regular">
+                                    <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8RA-uV-4r1"/>
+                        <color key="backgroundColor" white="0.95042660359999998" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="cmx-tX-gEm" firstAttribute="centerX" secondItem="tKn-31-fVz" secondAttribute="centerX" id="0aM-oe-GI9"/>
+                            <constraint firstItem="tKn-31-fVz" firstAttribute="centerY" secondItem="G9S-DF-dax" secondAttribute="centerY" id="144-Df-2Bx"/>
+                            <constraint firstItem="tKn-31-fVz" firstAttribute="top" secondItem="cmx-tX-gEm" secondAttribute="bottom" constant="27" id="4Vv-8O-Tbr"/>
+                            <constraint firstItem="hGI-M0-FgP" firstAttribute="leading" secondItem="8RA-uV-4r1" secondAttribute="leading" constant="126" id="DVd-N0-be6"/>
+                            <constraint firstItem="hGI-M0-FgP" firstAttribute="top" secondItem="tKn-31-fVz" secondAttribute="bottom" constant="38" id="RlC-XF-03K"/>
+                            <constraint firstItem="VBg-dQ-d90" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="cmx-tX-gEm" secondAttribute="leading" id="T6i-db-6NH"/>
+                            <constraint firstItem="VBg-dQ-d90" firstAttribute="top" secondItem="X0G-mA-0CB" secondAttribute="bottom" constant="8" id="VbN-cA-tVO"/>
+                            <constraint firstItem="VBg-dQ-d90" firstAttribute="leading" secondItem="8RA-uV-4r1" secondAttribute="leading" constant="98" id="Wcn-ea-V3O"/>
+                            <constraint firstItem="tKn-31-fVz" firstAttribute="trailing" secondItem="G9S-DF-dax" secondAttribute="trailingMargin" id="ehT-fo-ps7"/>
+                            <constraint firstItem="VBg-dQ-d90" firstAttribute="centerX" secondItem="X0G-mA-0CB" secondAttribute="centerX" id="gYz-hH-bmG"/>
+                            <constraint firstItem="ewv-Cr-N2O" firstAttribute="top" secondItem="hGI-M0-FgP" secondAttribute="bottom" constant="286" id="isU-yY-VIJ"/>
+                            <constraint firstItem="VBg-dQ-d90" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="cmx-tX-gEm" secondAttribute="trailing" id="kCc-9T-Vhd"/>
+                            <constraint firstItem="cmx-tX-gEm" firstAttribute="top" secondItem="VBg-dQ-d90" secondAttribute="bottom" constant="7" id="n09-7E-FDq"/>
+                            <constraint firstItem="tKn-31-fVz" firstAttribute="leading" secondItem="G9S-DF-dax" secondAttribute="leadingMargin" id="qtm-2j-A7l"/>
+                            <constraint firstItem="tKn-31-fVz" firstAttribute="centerX" secondItem="hGI-M0-FgP" secondAttribute="centerX" id="vSx-zN-fOX"/>
+                            <constraint firstItem="X0G-mA-0CB" firstAttribute="leading" secondItem="8RA-uV-4r1" secondAttribute="leading" constant="98.5" id="x25-ei-YpI"/>
+                            <constraint firstItem="X0G-mA-0CB" firstAttribute="top" secondItem="p2X-AK-Mhb" secondAttribute="bottom" constant="157.5" id="y0z-9e-HEg"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H5Q-Zv-XZ5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="409.5" height="171.5"/>
+    </resources>
+</document>

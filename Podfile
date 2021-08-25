@@ -7,7 +7,8 @@ target 'SightCallAlpha' do
  
 #  pod 'LSUniversalSDK', :git => 'git@git.core.cloud.weemo.com:ios/artefact-universalsdk.git'
 #   pod 'LSUniversalSDK', :git => 'https://github.com/sightcall/iOS-UniversalSDK.git'
-  pod 'LSUniversalSDK', :path => '/Users/jason/SightCall/std/livesight-universalsdk'
+   pod 'LSUniversalSDK', :git => 'https://github.com/wildthink/iOS-UniversalSDK.git'
+#  pod 'LSUniversalSDK', :path => '/Users/jason/SightCall/std/livesight-universalsdk'
   # Pods for SightCallAlpha
 
 end

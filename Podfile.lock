@@ -1,0 +1,170 @@
+PODS:
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - FormatterKit/LocationFormatter (1.9.0):
+    - FormatterKit/Resources
+  - FormatterKit/Resources (1.9.0)
+  - FormatterKit/TimeIntervalFormatter (1.9.0):
+    - FormatterKit/Resources
+  - libPhoneNumber-iOS (0.9.13)
+  - LSUniversalSDK (2.6.0):
+    - LSUniversalSDK/AdvancedAnnotations (= 2.6.0)
+    - LSUniversalSDK/Core (= 2.6.0)
+    - LSUniversalSDK/LiveTranslation (= 2.6.0)
+    - LSUniversalSDK/Multiparty (= 2.6.0)
+  - LSUniversalSDK/AdvancedAnnotations (2.6.0):
+    - SVGgh (~> 1.11)
+  - LSUniversalSDK/Core (2.6.0):
+    - AFNetworking/NSURLSession (~> 4)
+    - FormatterKit/LocationFormatter (~> 1.8)
+    - FormatterKit/TimeIntervalFormatter (~> 1.8)
+    - libPhoneNumber-iOS (= 0.9.13)
+    - MaterialComponents/ActivityIndicator (~> 104.0)
+    - MaterialComponents/TextFields (~> 104.0)
+    - "MaterialComponents/TextFields+ColorThemer (~> 104.0)"
+    - "MaterialComponents/TextFields+Theming (~> 104.0)"
+    - "MaterialComponents/TextFields+TypographyThemer (~> 104.0)"
+    - MMWormhole/Core (~> 2.0.0)
+    - MTBBarcodeScanner (~> 5.0)
+  - LSUniversalSDK/LiveTranslation (2.6.0)
+  - LSUniversalSDK/Multiparty (2.6.0)
+  - MaterialComponents/ActivityIndicator (104.0.1):
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+    - MotionAnimator (~> 2.0)
+  - MaterialComponents/AnimationTiming (104.0.1)
+  - MaterialComponents/Availability (104.0.1)
+  - MaterialComponents/Buttons (104.0.1):
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Elevation (104.0.1):
+    - MaterialComponents/Availability
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (104.0.1):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (104.0.1)
+  - MaterialComponents/private/Application (104.0.1)
+  - MaterialComponents/private/Color (104.0.1)
+  - MaterialComponents/private/Math (104.0.1)
+  - MaterialComponents/Ripple (104.0.1):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/schemes/Color (104.0.1):
+    - MaterialComponents/private/Color
+  - MaterialComponents/schemes/Container (104.0.1):
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/schemes/Shape
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/schemes/Shape (104.0.1):
+    - MaterialComponents/ShapeLibrary
+    - MaterialComponents/Shapes
+  - MaterialComponents/schemes/Typography (104.0.1):
+    - "MaterialComponents/schemes/Typography+BasicFontScheme"
+    - "MaterialComponents/schemes/Typography+Scheming"
+    - MaterialComponents/Typography
+  - "MaterialComponents/schemes/Typography+BasicFontScheme (104.0.1)"
+  - "MaterialComponents/schemes/Typography+Scheming (104.0.1)"
+  - MaterialComponents/ShadowElevations (104.0.1)
+  - MaterialComponents/ShadowLayer (104.0.1):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/ShapeLibrary (104.0.1):
+    - MaterialComponents/private/Math
+    - MaterialComponents/Shapes
+  - MaterialComponents/Shapes (104.0.1):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/TextFields (104.0.1):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/Elevation
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - "MaterialComponents/TextFields+ColorThemer (104.0.1)":
+    - MaterialComponents/TextFields
+    - MaterialComponents/Themes
+  - "MaterialComponents/TextFields+Theming (104.0.1)":
+    - MaterialComponents/schemes/Container
+    - MaterialComponents/TextFields
+    - "MaterialComponents/TextFields+ColorThemer"
+    - "MaterialComponents/TextFields+TypographyThemer"
+  - "MaterialComponents/TextFields+TypographyThemer (104.0.1)":
+    - MaterialComponents/schemes/Typography
+    - MaterialComponents/TextFields
+  - MaterialComponents/Themes (104.0.1):
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/Typography (104.0.1):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (3.0.0)
+  - MDFTextAccessibility (2.0.1)
+  - MMWormhole/Core (2.0.0)
+  - MotionAnimator (2.8.1):
+    - MotionInterchange (~> 1.6)
+  - MotionInterchange (1.6.0)
+  - MTBBarcodeScanner (5.0.11)
+  - SVGgh (1.11.4)
+
+DEPENDENCIES:
+  - LSUniversalSDK (from `https://github.com/wildthink/iOS-UniversalSDK.git`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FormatterKit
+    - libPhoneNumber-iOS
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - MMWormhole
+    - MotionAnimator
+    - MotionInterchange
+    - MTBBarcodeScanner
+    - SVGgh
+
+EXTERNAL SOURCES:
+  LSUniversalSDK:
+    :git: https://github.com/wildthink/iOS-UniversalSDK.git
+
+CHECKOUT OPTIONS:
+  LSUniversalSDK:
+    :commit: c050995477c4b936660bda7764047307cc686a3f
+    :git: https://github.com/wildthink/iOS-UniversalSDK.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  FormatterKit: 184db51bf120b633693a73624a4cede89ec51a41
+  libPhoneNumber-iOS: e444379ac18bbfbdefad571da735b2cd7e096caa
+  LSUniversalSDK: 452ad21f18276fe3e99c3c9524702b4d12add7da
+  MaterialComponents: 5f68750c41b8c191c605a9296586717b2f92da93
+  MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
+  MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
+  MMWormhole: 0cd3fd35a9118b2e2d762b499f54eeaace0be791
+  MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
+  MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
+  MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
+  SVGgh: c7bc862cfba50fb131db23f734295367da9187ef
+
+PODFILE CHECKSUM: 31afce21fa8d847755770359895b19f3cff48f34
+
+COCOAPODS: 1.10.2

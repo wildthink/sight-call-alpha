@@ -1,0 +1,8 @@
+app_identifier("com.sightcall.pro.sightcall") # The bundle identifier of your app
+apple_id("jason.jobe@sightcall.com") # Your Apple email address
+
+itc_team_id("112697802") # App Store Connect Team ID
+team_id("WDH9UWSA4G") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

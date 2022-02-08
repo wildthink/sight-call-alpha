@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TRq-0d-4UD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20034" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TRq-0d-4UD">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20017"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -83,6 +84,14 @@
                                     <action selector="paste" destination="lwX-cR-IfJ" eventType="touchUpInside" id="4gA-Sr-0ZO"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ByQ-FG-dJ3">
+                                <rect key="frame" x="16" y="728" width="382" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="Kob-Wg-Tde"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="592-tC-4dZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -95,6 +104,7 @@
                             <constraint firstItem="JHX-7a-WRB" firstAttribute="top" secondItem="JbA-98-l2F" secondAttribute="bottom" constant="8" symbolic="YES" id="9Zz-5R-pxf"/>
                             <constraint firstItem="592-tC-4dZ" firstAttribute="trailing" secondItem="GdU-gg-LqP" secondAttribute="trailing" constant="16" id="B43-w6-jo9"/>
                             <constraint firstItem="592-tC-4dZ" firstAttribute="trailing" secondItem="gAs-bs-Ift" secondAttribute="trailing" constant="16" id="Dao-5R-mAe"/>
+                            <constraint firstItem="ByQ-FG-dJ3" firstAttribute="leading" secondItem="592-tC-4dZ" secondAttribute="leading" constant="16" id="Gj4-bg-d4N"/>
                             <constraint firstItem="592-tC-4dZ" firstAttribute="trailing" secondItem="JHX-7a-WRB" secondAttribute="trailing" constant="16" id="L02-Og-6VE"/>
                             <constraint firstItem="JbA-98-l2F" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="592-tC-4dZ" secondAttribute="leading" id="Lmk-bT-njG"/>
                             <constraint firstItem="cA2-n6-lK2" firstAttribute="centerX" secondItem="HGr-6j-1la" secondAttribute="centerX" id="Mbv-WW-INx"/>
@@ -103,6 +113,7 @@
                             <constraint firstItem="JbA-98-l2F" firstAttribute="top" secondItem="gAs-bs-Ift" secondAttribute="bottom" constant="43" id="YBr-WS-f9d"/>
                             <constraint firstItem="gAs-bs-Ift" firstAttribute="top" secondItem="cA2-n6-lK2" secondAttribute="bottom" constant="44.5" id="d8b-tq-iYy"/>
                             <constraint firstItem="1FT-6u-Tll" firstAttribute="centerX" secondItem="HGr-6j-1la" secondAttribute="centerX" id="fte-os-CZ0"/>
+                            <constraint firstItem="592-tC-4dZ" firstAttribute="trailing" secondItem="ByQ-FG-dJ3" secondAttribute="trailing" constant="16" id="hp0-sA-4cX"/>
                             <constraint firstItem="1FT-6u-Tll" firstAttribute="top" secondItem="592-tC-4dZ" secondAttribute="top" constant="32" id="jxR-cT-ve0"/>
                             <constraint firstItem="GdU-gg-LqP" firstAttribute="leading" secondItem="592-tC-4dZ" secondAttribute="leading" constant="16" id="q34-kC-6yd"/>
                             <constraint firstItem="Opy-8E-Wht" firstAttribute="leading" secondItem="592-tC-4dZ" secondAttribute="leading" constant="16" id="rD0-si-IPQ"/>
@@ -111,11 +122,13 @@
                             <constraint firstItem="JbA-98-l2F" firstAttribute="centerX" secondItem="HGr-6j-1la" secondAttribute="centerX" id="xhC-si-dNa"/>
                             <constraint firstItem="bpp-VW-HjD" firstAttribute="top" secondItem="JHX-7a-WRB" secondAttribute="bottom" constant="16" id="yVd-hn-ldQ"/>
                             <constraint firstItem="GdU-gg-LqP" firstAttribute="top" secondItem="bpp-VW-HjD" secondAttribute="bottom" constant="20" id="ycG-LL-RxN"/>
+                            <constraint firstItem="592-tC-4dZ" firstAttribute="bottom" secondItem="ByQ-FG-dJ3" secondAttribute="bottom" constant="100" id="ydz-K6-bS8"/>
                             <constraint firstItem="592-tC-4dZ" firstAttribute="trailing" secondItem="Opy-8E-Wht" secondAttribute="trailing" constant="16" id="zF5-jc-BBS"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="xO4-WT-6MN"/>
                     <connections>
+                        <outlet property="apnToken" destination="ByQ-FG-dJ3" id="KTH-vb-BcJ"/>
                         <outlet property="pinField" destination="gAs-bs-Ift" id="WtP-97-MnN"/>
                         <outlet property="urlField" destination="Opy-8E-Wht" id="CWX-DW-Rmv"/>
                     </connections>

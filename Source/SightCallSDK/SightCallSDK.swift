@@ -124,6 +124,7 @@ var apnToken: String?
         
         switch status {
         case .idle:
+            dismissCallViewController()
             state = .idle
         case .agentConnected:
             break

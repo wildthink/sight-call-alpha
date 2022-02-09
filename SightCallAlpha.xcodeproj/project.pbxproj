@@ -19,13 +19,11 @@
 		96AD420B25E40A320030FB93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AD420A25E40A320030FB93 /* ViewController.swift */; };
 		96AD420E25E40A320030FB93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AD420C25E40A320030FB93 /* Main.storyboard */; };
 		96AD421025E40A330030FB93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96AD420F25E40A330030FB93 /* Assets.xcassets */; };
-		DB5AFF7EA0A6C7274CC1397D /* Pods_SightCallAlpha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B286EFDAEDBE2FBDBEC25B2 /* Pods_SightCallAlpha.framework */; };
+		B46F48D3C48BE43514C70D9C /* Pods_SightCallAlpha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ED56A564D20AF30AB5BFBE9 /* Pods_SightCallAlpha.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1AAEC3F9E09F26ED714F7533 /* Pods-SightCallAlpha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightCallAlpha.debug.xcconfig"; path = "Target Support Files/Pods-SightCallAlpha/Pods-SightCallAlpha.debug.xcconfig"; sourceTree = "<group>"; };
-		6DF603815D18C5029876E546 /* Pods-SightCallAlpha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightCallAlpha.release.xcconfig"; path = "Target Support Files/Pods-SightCallAlpha/Pods-SightCallAlpha.release.xcconfig"; sourceTree = "<group>"; };
-		8B286EFDAEDBE2FBDBEC25B2 /* Pods_SightCallAlpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SightCallAlpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ED56A564D20AF30AB5BFBE9 /* Pods_SightCallAlpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SightCallAlpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9662D3602603D95900139F64 /* AutoTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoTimer.swift; sourceTree = "<group>"; };
 		9662D3642604FF3800139F64 /* LSFoundationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSFoundationExtensions.swift; sourceTree = "<group>"; };
 		966453D9263C3E1B00A084AC /* SightCallSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SightCallSDK.swift; sourceTree = "<group>"; };
@@ -41,6 +39,8 @@
 		96AD420F25E40A330030FB93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96AD421425E40A330030FB93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96C6AC2A25E5DE2800F38F2C /* SightCallAlpha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SightCallAlpha.entitlements; sourceTree = "<group>"; };
+		BA92668C520F216AB22E94DC /* Pods-SightCallAlpha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightCallAlpha.debug.xcconfig"; path = "Target Support Files/Pods-SightCallAlpha/Pods-SightCallAlpha.debug.xcconfig"; sourceTree = "<group>"; };
+		E1282F94B437E53D5F63D022 /* Pods-SightCallAlpha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SightCallAlpha.release.xcconfig"; path = "Target Support Files/Pods-SightCallAlpha/Pods-SightCallAlpha.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB5AFF7EA0A6C7274CC1397D /* Pods_SightCallAlpha.framework in Frameworks */,
+				B46F48D3C48BE43514C70D9C /* Pods_SightCallAlpha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,10 +58,18 @@
 		668C436DF072E3300077893B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1AAEC3F9E09F26ED714F7533 /* Pods-SightCallAlpha.debug.xcconfig */,
-				6DF603815D18C5029876E546 /* Pods-SightCallAlpha.release.xcconfig */,
+				BA92668C520F216AB22E94DC /* Pods-SightCallAlpha.debug.xcconfig */,
+				E1282F94B437E53D5F63D022 /* Pods-SightCallAlpha.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		9061CF3D5FE0A9E45B86E857 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7ED56A564D20AF30AB5BFBE9 /* Pods_SightCallAlpha.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		966453D8263C3E1A00A084AC /* SightCallSDK */ = {
@@ -82,7 +90,7 @@
 				96AD420525E40A320030FB93 /* Source */,
 				96AD420425E40A320030FB93 /* Products */,
 				668C436DF072E3300077893B /* Pods */,
-				D4714BA6C4B42977E872021A /* Frameworks */,
+				9061CF3D5FE0A9E45B86E857 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,14 +119,6 @@
 			path = Source;
 			sourceTree = "<group>";
 		};
-		D4714BA6C4B42977E872021A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8B286EFDAEDBE2FBDBEC25B2 /* Pods_SightCallAlpha.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,11 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96AD421725E40A330030FB93 /* Build configuration list for PBXNativeTarget "SightCallAlpha" */;
 			buildPhases = (
-				44178B9C7E2B908683A9F567 /* [CP] Check Pods Manifest.lock */,
+				B2A0AFCB4860F99B6A4D2307 /* [CP] Check Pods Manifest.lock */,
 				96AD41FF25E40A320030FB93 /* Sources */,
 				96AD420025E40A320030FB93 /* Frameworks */,
 				96AD420125E40A320030FB93 /* Resources */,
-				B805E676497A59A508B2AAD4 /* [CP] Embed Pods Frameworks */,
+				DBBB9D704FFBAA35A10150A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -188,7 +188,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		44178B9C7E2B908683A9F567 /* [CP] Check Pods Manifest.lock */ = {
+		B2A0AFCB4860F99B6A4D2307 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,7 +210,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B805E676497A59A508B2AAD4 /* [CP] Embed Pods Frameworks */ = {
+		DBBB9D704FFBAA35A10150A9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -310,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -365,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -377,7 +377,7 @@
 		};
 		96AD421825E40A330030FB93 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AAEC3F9E09F26ED714F7533 /* Pods-SightCallAlpha.debug.xcconfig */;
+			baseConfigurationReference = BA92668C520F216AB22E94DC /* Pods-SightCallAlpha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAlpha;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -400,7 +400,7 @@
 		};
 		96AD421925E40A330030FB93 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6DF603815D18C5029876E546 /* Pods-SightCallAlpha.release.xcconfig */;
+			baseConfigurationReference = E1282F94B437E53D5F63D022 /* Pods-SightCallAlpha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconAlpha;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

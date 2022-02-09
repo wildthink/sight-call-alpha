@@ -12,14 +12,14 @@ PODS:
   - FormatterKit/TimeIntervalFormatter (1.9.0):
     - FormatterKit/Resources
   - libPhoneNumber-iOS (0.9.13)
-  - LSUniversalSDK (2.6.0):
-    - LSUniversalSDK/AdvancedAnnotations (= 2.6.0)
-    - LSUniversalSDK/Core (= 2.6.0)
-    - LSUniversalSDK/LiveTranslation (= 2.6.0)
-    - LSUniversalSDK/Multiparty (= 2.6.0)
-  - LSUniversalSDK/AdvancedAnnotations (2.6.0):
+  - LSUniversalSDK (2.6.2):
+    - LSUniversalSDK/AdvancedAnnotations (= 2.6.2)
+    - LSUniversalSDK/Core (= 2.6.2)
+    - LSUniversalSDK/LiveTranslation (= 2.6.2)
+    - LSUniversalSDK/Multiparty (= 2.6.2)
+  - LSUniversalSDK/AdvancedAnnotations (2.6.2):
     - SVGgh (~> 1.11)
-  - LSUniversalSDK/Core (2.6.0):
+  - LSUniversalSDK/Core (2.6.2):
     - AFNetworking/NSURLSession (~> 4)
     - FormatterKit/LocationFormatter (~> 1.8)
     - FormatterKit/TimeIntervalFormatter (~> 1.8)
@@ -31,8 +31,8 @@ PODS:
     - "MaterialComponents/TextFields+TypographyThemer (~> 104.0)"
     - MMWormhole/Core (~> 2.0.0)
     - MTBBarcodeScanner (~> 5.0)
-  - LSUniversalSDK/LiveTranslation (2.6.0)
-  - LSUniversalSDK/Multiparty (2.6.0)
+  - LSUniversalSDK/LiveTranslation (2.6.2)
+  - LSUniversalSDK/Multiparty (2.6.2)
   - MaterialComponents/ActivityIndicator (104.0.1):
     - MaterialComponents/Palettes
     - MaterialComponents/private/Application
@@ -123,7 +123,7 @@ PODS:
     - MotionInterchange (~> 1.6)
   - MotionInterchange (1.6.0)
   - MTBBarcodeScanner (5.0.11)
-  - SVGgh (1.11.4)
+  - SVGgh (1.12.1)
 
 DEPENDENCIES:
   - LSUniversalSDK (from `https://github.com/wildthink/iOS-UniversalSDK.git`)
@@ -148,14 +148,14 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   LSUniversalSDK:
-    :commit: c050995477c4b936660bda7764047307cc686a3f
+    :commit: 0a776582c8ca3336dc681a95b17f96f0e74ed48e
     :git: https://github.com/wildthink/iOS-UniversalSDK.git
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FormatterKit: 184db51bf120b633693a73624a4cede89ec51a41
   libPhoneNumber-iOS: e444379ac18bbfbdefad571da735b2cd7e096caa
-  LSUniversalSDK: 452ad21f18276fe3e99c3c9524702b4d12add7da
+  LSUniversalSDK: abe61ca1834aad9576c97bcacb8e99d70a885fea
   MaterialComponents: 5f68750c41b8c191c605a9296586717b2f92da93
   MDFInternationalization: d697c55307816222a55685c4ccb1044ffb030c12
   MDFTextAccessibility: f4bb4cc2194286651b59a215fdeaa0e05dc90ba5
@@ -163,8 +163,8 @@ SPEC CHECKSUMS:
   MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
   MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
   MTBBarcodeScanner: f453b33c4b7dfe545d8c6484ed744d55671788cb
-  SVGgh: c7bc862cfba50fb131db23f734295367da9187ef
+  SVGgh: 63c92d45b520163b640b73a2b41896ea864e8310
 
-PODFILE CHECKSUM: 31afce21fa8d847755770359895b19f3cff48f34
+PODFILE CHECKSUM: ee17c7b6d82939e5b6e4fb0827e541bb4dda3f7d
 
 COCOAPODS: 1.11.2

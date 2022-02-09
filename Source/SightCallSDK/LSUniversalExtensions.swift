@@ -73,3 +73,33 @@ extension lsConnectionError_t: CustomStringConvertible {
         }
     }
 }
+
+extension lsCallEnd_t: CustomStringConvertible {
+    
+    public var description: String {
+        switch self {
+                /**
+                 *  The call ended prematuraly
+                 */
+            case .unexpected: return "unexpected"
+                /**
+                 *  The call was ended by the remote client
+                 */
+            case .remote: return "remote"
+                /**
+                 *  the call was ended on your end.
+                 */
+            case .local: return "local"
+                /**
+                 *
+                 */
+            case .eulaRefused: return "eulaRefused"
+                /**
+                 * The call did timeout
+                 */
+            case .timeout: return "timeout"
+            default:
+                return "unknown"
+        }
+    }
+}

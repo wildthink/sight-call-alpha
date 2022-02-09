@@ -40,12 +40,15 @@ class ViewController: UIViewController {
     
     func autoconnect(_ payload: APNPayload) {
         
+//        postAlert("Auto connecting call now")
+        
         guard let url_s: String =
                 payload["sightCallURL"]
                 ?? payload["sightCallUrl"]
                 ?? payload["url"]
         else {
             print(#function, "NO URL in Payload \(payload)")
+            postAlert("NO URL in Payload \(payload)")
             return
         }
         if let url = URL(string: url_s) {
@@ -77,6 +80,7 @@ class ViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        sightCall?.presentingController = self
 //        paste()
 //        apnToken?.text = appDelegate?.deviceToken
     }
@@ -115,6 +119,21 @@ class ViewController: UIViewController {
 //            }
 //        }
         
+    public func postAlert(_ msg: String) {
+        let alert = UIAlertController(
+            title: "SightCall Alert",
+            message: msg,
+            preferredStyle: .alert)
+        alert.addAction(
+            UIAlertAction(
+                title: NSLocalizedString("OK", comment: "Default action"),
+                style: .default,
+                handler: { _ in
+            NSLog("The \"OK\" alert occured.")
+        }))
+        self.present(alert, animated: true, completion: nil)
+     }
+
     @IBAction
     func share() {
 //        guard let data = URL(string: "https://www.example.com") else { return }
@@ -148,10 +167,10 @@ class ViewController: UIViewController {
     
     @IBAction
     func call() {
-//        if let url = url("acd_url") {
-//            print (#function, url.absoluteString)
-//            sightCall?.start(with: url)
-//        }
+        if let url = connectionURL ?? UIPasteboard.general.url {
+            print (#function, url.absoluteString)
+            sightCall?.start(with: url)
+        }
     }
 
     @IBAction
@@ -164,7 +183,7 @@ struct APNPayload {
     var rawValue: [AnyHashable:Any]
     var packetKey: String = "aps"
     
-    init?(_ any: Any) {
+    init?(_ any: Any?) {
         guard let packet = any as? [AnyHashable:Any]
         else { return nil }
         rawValue = packet

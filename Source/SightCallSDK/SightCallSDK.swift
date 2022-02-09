@@ -207,8 +207,12 @@ extension SightCallSDK {
         else { return }
         
         DispatchQueue.main.async {
-            self.presentingController?.present(viewController, animated: animated) {
-                self.isCallControllerActive = true
+            if let nav = self.presentingController?.navigationController {
+                nav.pushViewController(viewController, animated: true)
+            } else {
+                self.presentingController?.present(viewController, animated: animated) {
+                    self.isCallControllerActive = true
+                }
             }
         }
     }

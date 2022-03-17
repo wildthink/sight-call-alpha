@@ -131,8 +131,9 @@ class ViewController: UIViewController {
                 handler: { _ in
             NSLog("The \"OK\" alert occured.")
         }))
+        
         self.present(alert, animated: true, completion: nil)
-     }
+    }
 
     @IBAction
     func share() {
@@ -145,7 +146,20 @@ class ViewController: UIViewController {
         }
         """
         let av = UIActivityViewController(activityItems: [json], applicationActivities: nil)
-        UIApplication.shared.windows.first?.rootViewController?.present(av, animated: true, completion: nil)
+
+//        if (UI_USER_INTERFACE_IDIOM() == .phone)
+        if UIDevice.current.userInterfaceIdiom == .phone
+        {
+            present(av, animated: true, completion: nil)
+        }
+        else
+        {
+            // Change Rect to position Popover
+            let popup = UIPopoverController(contentViewController: av)
+            let box: CGRect = .init(x: 20, y: 20, width: 1, height: 1)
+            popup.present(from: box, in: self.view, permittedArrowDirections: .unknown, animated: true)
+        }
+//        UIApplication.shared.windows.first?.rootViewController?.present(av, animated: true, completion: nil)
     }
 
     @IBAction
@@ -170,6 +184,8 @@ class ViewController: UIViewController {
         if let url = connectionURL ?? UIPasteboard.general.url {
             print (#function, url.absoluteString)
             sightCall?.start(with: url)
+        } else {
+            postAlert("No connection URL is available")
         }
     }
 

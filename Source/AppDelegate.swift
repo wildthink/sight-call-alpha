@@ -21,7 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         UserDefaults.standard.register(settings: "Settings")
-        application.registerForRemoteNotifications() // LSUniversalSDK calls this as needed
+        application.registerForRemoteNotifications()
+        UIApplication.shared.applicationIconBadgeNumber = 0
         return true
     }
 
